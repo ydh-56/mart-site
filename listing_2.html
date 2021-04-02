@@ -43,64 +43,74 @@
 			<div class="container">
 				<div class="navbar-header">
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"><i class="fa fa-align-justify"></i></span>
-                    </button>
-					<a class="navbar-brand" href="index.html"><img class="img-fluid" src="images/mart_logo.png" alt="Logo"></a>
+						<span class="navbar-toggler-icon"><i class="fa fa-align-justify"></i></span>
+					</button>
+					<a class="navbar-brand" href="index1.html"><img class="img-fluid" src="images/martlogo.png" style="margin-bottom: 30px" alt="Logo" /></a>
 				</div>
 				<!-- /.navbar-header -->
-				
+
 				<div class="collapse navbar-collapse" id="navbarNav">
 					<ul class="nav navbar-nav">
-						<li class="tr-dropdown"><a href="#">Home</a>
-							<ul class="tr-dropdown-menu left tr-list fadeInUp" role="menu">
-						        <li><a href="index.html">Home Page V-1</a></li>
-						        <li><a href="index1.html">Home Page V-2</a></li>
-							</ul>
+						<li class="tr-dropdown active">
+							<a href="#">홈</a>
 						</li>
-						<li><a href="job-post.html">Post A Job</a></li>
-						<li class="active"><a href="listing.html">Job List</a></li>
-						<li><a href="job-details.html">Job Details</a></li>
-						<li class="tr-dropdown"><a href="#">Pages</a>
+						<li><a href="job-post.html">채용공고 등록</a></li>
+						<li><a href="listing.html">채용공고</a></li>
+						<li><a href="job-details.html">회사 소개</a></li>
+						<li>
+							<a href="employee-profile.html">이력서 관리</a>
+						</li>
+						<li class="tr-dropdown">
+							<a href="#">Pages</a>
 							<ul class="tr-dropdown-menu tr-list fadeInUp" role="menu">
-						        <li><a href="employee-profile.html">Employee Profile</a></li>
-						        <li><a href="employer-profile.html">Employer Profile</a></li>
-						        <li><a href="view-compnay.html">View Compnay</a></li>
-						        <li><a href="view-resume.html">View Resume</a></li>
-						        <li><a href="coming-soon.html">Coming Soon</a></li>
-						        <li><a href="notification.html">Notification</a></li>
-						        <li><a href="contact.html">Contact</a></li>
-						        <li><a href="pricing.html">Pricing</a></li>
-						        <li><a href="signup.html">Sign Up</a></li>
-						        <li><a href="signin.html">Sign In</a></li>
-						        <li><a href="500.html">500 Opsss</a></li>
-						        <li><a href="404.html">404 Error</a></li>
+								<li>
+									<a href="employee-profile.html">Employee Profile</a>
+								</li>
+								<li>
+									<a href="employer-profile.html">Employer Profile</a>
+								</li>
+								<!-- <li><a href="view-compnay.html">View Compnay</a></li>
+							<li><a href="view-resume.html">View Resume</a></li>
+							<li><a href="coming-soon.html">Coming Soon</a></li>
+							<li><a href="notification.html">Notification</a></li>
+							<li><a href="contact.html">Contact</a></li>
+							<li><a href="pricing.html">Pricing</a></li>
+							<li><a href="signup.html">Sign Up</a></li>
+							<li><a href="signin.html">Sign In</a></li>
+							<li><a href="500.html">500 Opsss</a></li>
+							<li><a href="404.html">404 Error</a></li> -->
 							</ul>
 						</li>
 					</ul>
 				</div>
 
-				<div class="navbar-right">			
-					<div class="dropdown tr-change-dropdown">
-						<i class="fa fa-globe"></i>
-						<a data-toggle="dropdown" href="#" aria-expanded="false"><span class="change-text">United Kingdom</span><i class="fa fa-angle-down"></i></a>
-						<ul class="dropdown-menu tr-change tr-list">
-							<li><a href="#">United Kingdom</a></li>
-							<li><a href="#">United States</a></li>
-							<li><a href="#">China</a></li>
-							<li><a href="#">Russia</a></li>
-						</ul>								
-					</div><!-- /.language-dropdown -->					
+				<div class="navbar-right">
+					<!-- <div class="dropdown tr-change-dropdown">
+					<i class="fa fa-globe"></i>
+					<a data-toggle="dropdown" href="#" aria-expanded="false"><span class="change-text">United Kingdom</span><i class="fa fa-angle-down"></i></a>
+					<ul class="dropdown-menu tr-change tr-list">
+						<li><a href="#">United Kingdom</a></li>
+						<li><a href="#">United States</a></li>
+						<li><a href="#">China</a></li>
+						<li><a href="#">Russia</a></li>
+					</ul>								
+				</div>/.language-dropdown	 -->
 					<ul class="sign-in tr-list">
 						<li><i class="fa fa-user"></i></li>
-						<li><a href="#"> Sign In </a></li>
-						<li><a href="#">Register</a></li>
-					</ul><!-- /.sign-in -->					
+						<li><a href="signin.html">로그인</a></li>
+						<li><a href="signup.html">회원가입</a></li>
+					</ul>
+					<!-- /.sign-in -->
 
-					<a href="job-post.html" class="btn btn-primary">Post Job</a>
-				</div><!-- /.nav-right -->
-			</div><!-- /.container -->
-		</nav><!-- /.navbar -->
-	</header><!-- /.tr-header -->
+					<a href="job-post.html" class="btn btn-primary">채용공고 등록</a>
+				</div>
+				<!-- /.nav-right -->
+			</div>
+			<!-- /.container -->
+		</nav>
+		<!-- /.navbar -->
+	</header>
+	<!-- /.tr-header -->
 
 	
 
@@ -109,9 +119,7 @@
 			<div class="job-topbar">
 				<span class="pull-left">이력서 열람</span>
 				<ul class="nav nav-tabs job-tabs" role="tablist">
-					<li>235 Total jobs</li>
-					<li role="presentation" class="active"><a href="#four-colum" aria-controls="four-colum" role="tab" data-toggle="tab"><i class="fa fa-th" aria-hidden="true"></i></a></li>
-					<li role="presentation"><a href="#two-column" aria-controls="two-column" role="tab" data-toggle="tab"><i class="fa fa-th-list" aria-hidden="true"></i></a></li>
+					<li>235개의 이력서</li>
 				</ul>				
 			</div>
 			
@@ -121,9 +129,9 @@
 					<div class="row">
 						<div class="col-md-6 col-lg-3">
 							<div class="job-item">
-								<div class="item-overlay">
+								<div class="item-overlay overlay-list2">
 									<div class="job-info">
-										<a href="#" class="btn btn-primary">Full Time</a>
+										<a href="#" class="btn btn-primary">풀 타임</a>
 										<span class="tr-title">
 											<a href="job-details.html">김성진</a>
 											<span><a href="#">남성 26세</a></span>
@@ -133,16 +141,14 @@
 											<li><i class="fa fa-briefcase" aria-hidden="true"></i>식품제조/가공</li>
 											<li><i class="fa fa-money" aria-hidden="true"></i>경력 : 1년 3개월</li>
 										</ul>
-										<ul class="job-social tr-list">
-											<li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-expand" aria-hidden="true"></i></a></li>
+										<ul class="job-social tr-list listing-2">
 											<li><a href="#"><i class="fa fa-bookmark-o" aria-hidden="true"></i></a></li>
 											<li><a href="job-details.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></li>
 										</ul>
 									</div>										
 								</div>
 								<div class="job-info">
-									<div class="company-logo">
+									<div class="company-logo resume-icon">
 										<img src="images/test/test1.png" alt="images" class="img-fluid">
 									</div>
 									<span class="tr-title">
@@ -155,7 +161,7 @@
 										<li><span><i class="fa fa-money" aria-hidden="true"></i></span>경력 : 1년 3개월</li>
 									</ul>
 									<div class="time">
-										<a href="#"><span>Full Time</span></a>
+										<a href="#"><span>풀 타임</span></a>
 										<span class="pull-right">등록일 : 오늘</span>
 									</div>																				
 								</div>
@@ -163,9 +169,9 @@
 						</div>
 						<div class="col-md-6 col-lg-3">
 							<div class="job-item">
-								<div class="item-overlay">
+								<div class="item-overlay overlay-list2">
 									<div class="job-info">
-										<a href="#" class="btn btn-primary">Part Time</a>
+										<a href="#" class="btn btn-primary">아르바이트</a>
 										<span class="tr-title">
 											<a href="job-details.html">이주인</a>
 											<span><a href="#">여성 43세</a></span>
@@ -175,16 +181,14 @@
 											<li><i class="fa fa-briefcase" aria-hidden="true"></i>구매/자재/물류</li>
 											<li><i class="fa fa-money" aria-hidden="true"></i>신입</li>
 										</ul>
-										<ul class="job-social tr-list">
-											<li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-expand" aria-hidden="true"></i></a></li>
+										<ul class="job-social tr-list listing-2">
 											<li><a href="#"><i class="fa fa-bookmark-o" aria-hidden="true"></i></a></li>
 											<li><a href="job-details.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></li>
 										</ul>
 									</div>										
 								</div>								
 								<div class="job-info">
-									<div class="company-logo">
+									<div class="company-logo resume-icon">
 										<img src="images/test/test2.png" alt="images" class="img-fluid">
 									</div>
 									<span class="tr-title">
@@ -197,17 +201,17 @@
 										<li><span><i class="fa fa-money" aria-hidden="true"></i></span>신입</li>
 									</ul>
 									<div class="time">
-										<a href="#"><span class="part-time">Part Time</span></a>
-										<span class="pull-right">등록일 : 3일전</span>
+										<a href="#"><span class="part-time">아르바이트</span></a>
+										<span class="pull-right">등록일: 2021.02.25</span>
 									</div>			
 								</div>
 							</div>
 						</div>
 						<div class="col-md-6 col-lg-3">
 							<div class="job-item">
-								<div class="item-overlay">
+								<div class="item-overlay overlay-list2">
 									<div class="job-info">
-										<a href="#" class="btn btn-primary">Freelance</a>
+										<a href="#" class="btn btn-primary">파트타임</a>
 										<span class="tr-title">
 											<a href="job-details.html">최지운</a>
 											<span><a href="#">여성 23세</a></span>
@@ -217,16 +221,14 @@
 											<li><i class="fa fa-briefcase" aria-hidden="true"></i>야채 수산</li>
 											<li><i class="fa fa-money" aria-hidden="true"></i>신입</li>
 										</ul>
-										<ul class="job-social tr-list">
-											<li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-expand" aria-hidden="true"></i></a></li>
+										<ul class="job-social tr-list listing-2">
 											<li><a href="#"><i class="fa fa-bookmark-o" aria-hidden="true"></i></a></li>
 											<li><a href="job-details.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></li>
 										</ul>
 									</div>										
 								</div>								
 								<div class="job-info">
-									<div class="company-logo">
+									<div class="company-logo resume-icon">
 										<img src="images/test/test3.png" alt="images" class="img-fluid">
 									</div>
 									<span class="tr-title">
@@ -239,7 +241,7 @@
 										<li><span><i class="fa fa-money" aria-hidden="true"></i></span>신입</li>
 									</ul>
 									<div class="time">
-										<a href="#"><span class="freelance">Freelance</span></a>
+										<a href="#"><span class="freelance">파트타임</span></a>
 										<span class="pull-right">등록일 : 오늘</span>
 									</div>			
 								</div>
@@ -247,9 +249,9 @@
 						</div>
 						<div class="col-md-6 col-lg-3">
 							<div class="job-item">
-								<div class="item-overlay">
+								<div class="item-overlay overlay-list2">
 									<div class="job-info">
-										<a href="#" class="btn btn-primary">Full Time</a>
+										<a href="#" class="btn btn-primary">풀 타임</a>
 										<span class="tr-title">
 											<a href="job-details.html">임지안</a>
 											<span><a href="#">여성 32세</a></span>
@@ -259,16 +261,14 @@
 											<li><i class="fa fa-briefcase" aria-hidden="true"></i>슈퍼/마트/배송</li>
 											<li><i class="fa fa-money" aria-hidden="true"></i>경력 5년</li>
 										</ul>
-										<ul class="job-social tr-list">
-											<li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-expand" aria-hidden="true"></i></a></li>
+										<ul class="job-social tr-list listing-2">
 											<li><a href="#"><i class="fa fa-bookmark-o" aria-hidden="true"></i></a></li>
 											<li><a href="job-details.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></li>
 										</ul>
 									</div>										
 								</div>								
 								<div class="job-info">
-									<div class="company-logo">
+									<div class="company-logo resume-icon">
 										<img src="images/test/test4.png" alt="images" class="img-fluid">
 									</div>
 									<span class="tr-title">
@@ -281,17 +281,17 @@
 										<li><span><i class="fa fa-money" aria-hidden="true"></i></span>경력 5년</li>
 									</ul>
 									<div class="time">
-										<a href="#"><span>Full Time</span></a>
-										<span class="pull-right">등록일 : 6일전</span>
+										<a href="#"><span>풀 타임</span></a>
+										<span class="pull-right">등록일: 2021.03.16</span>
 									</div>				
 								</div>
 							</div>
 						</div>
 						<div class="col-md-6 col-lg-3">
 							<div class="job-item">
-								<div class="item-overlay">
+								<div class="item-overlay overlay-list2">
 									<div class="job-info">
-										<a href="#" class="btn btn-primary">Part Time</a>
+										<a href="#" class="btn btn-primary">아르바이트</a>
 										<span class="tr-title">
 											<a href="job-details.html">이수현</a>
 											<span><a href="#">여성 46세</a></span>
@@ -301,16 +301,14 @@
 											<li><i class="fa fa-briefcase" aria-hidden="true"></i>의류/잡화</li>
 											<li><i class="fa fa-money" aria-hidden="true"></i>경력 : 10년</li>
 										</ul>
-										<ul class="job-social tr-list">
-											<li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-expand" aria-hidden="true"></i></a></li>
+										<ul class="job-social tr-list listing-2">
 											<li><a href="#"><i class="fa fa-bookmark-o" aria-hidden="true"></i></a></li>
 											<li><a href="job-details.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></li>
 										</ul>
 									</div>										
 								</div>								
 								<div class="job-info">
-									<div class="company-logo">
+									<div class="company-logo resume-icon">
 										<img src="images/test/test1.png" alt="images" class="img-fluid">
 									</div>
 									<span class="tr-title">
@@ -323,17 +321,17 @@
 										<li><span><i class="fa fa-money" aria-hidden="true"></i></span>경력 : 10년</li>
 									</ul>	
 									<div class="time">
-										<a href="#"><span class="part-time">Part Time</span></a>
-										<span class="pull-right">등록일 : 4일전</span>
+										<a href="#"><span class="part-time">아르바이트</span></a>
+										<span class="pull-right">등록일: 2021.03.29</span>
 									</div>			
 								</div>
 							</div>
 						</div>
 						<div class="col-md-6 col-lg-3">
 							<div class="job-item">
-								<div class="item-overlay">
+								<div class="item-overlay overlay-list2">
 									<div class="job-info">
-										<a href="#" class="btn btn-primary">Freelance</a>
+										<a href="#" class="btn btn-primary">파트타임</a>
 										<span class="tr-title">
 											<a href="job-details.html">장현수</a>
 											<span><a href="#">남성 40세</a></span>
@@ -343,16 +341,14 @@
 											<li><i class="fa fa-briefcase" aria-hidden="true"></i>슈퍼/마트/수산</li>
 											<li><i class="fa fa-money" aria-hidden="true"></i>신입</li>
 										</ul>
-										<ul class="job-social tr-list">
-											<li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-expand" aria-hidden="true"></i></a></li>
+										<ul class="job-social tr-list listing-2">
 											<li><a href="#"><i class="fa fa-bookmark-o" aria-hidden="true"></i></a></li>
 											<li><a href="job-details.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></li>
 										</ul>
 									</div>										
 								</div>								
 								<div class="job-info">
-									<div class="company-logo">
+									<div class="company-logo resume-icon">
 										<img src="images/test/test2.png" alt="images" class="img-fluid">
 									</div>
 									<span class="tr-title">
@@ -365,7 +361,7 @@
 										<li><span><i class="fa fa-money" aria-hidden="true"></i></span>신입</li>
 									</ul>
 									<div class="time">
-										<a href="#"><span class="freelance">Freelance</span></a>
+										<a href="#"><span class="freelance">파트타임</span></a>
 										<span class="pull-right">등록일 : 오늘</span>
 									</div>				
 								</div>
@@ -373,9 +369,9 @@
 						</div>
 						<div class="col-md-6 col-lg-3">
 							<div class="job-item">
-								<div class="item-overlay">
+								<div class="item-overlay overlay-list2">
 									<div class="job-info">
-										<a href="#" class="btn btn-primary">Full Time</a>
+										<a href="#" class="btn btn-primary">풀 타임</a>
 										<span class="tr-title">
 											<a href="job-details.html">박수빈</a>
 											<span><a href="#">여성 45세</a></span>
@@ -385,16 +381,14 @@
 											<li><i class="fa fa-briefcase" aria-hidden="true"></i>캐셔</li>
 											<li><i class="fa fa-money" aria-hidden="true"></i>경력 : 15년</li>
 										</ul>
-										<ul class="job-social tr-list">
-											<li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-expand" aria-hidden="true"></i></a></li>
+										<ul class="job-social tr-list listing-2">
 											<li><a href="#"><i class="fa fa-bookmark-o" aria-hidden="true"></i></a></li>
 											<li><a href="job-details.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></li>
 										</ul>
 									</div>										
 								</div>								
 								<div class="job-info">
-									<div class="company-logo">
+									<div class="company-logo resume-icon">
 										<img src="images/test/test3.png" alt="images" class="img-fluid">
 									</div>
 									<span class="tr-title">
@@ -407,7 +401,7 @@
 										<li><span><i class="fa fa-money" aria-hidden="true"></i></span>경력 : 15년</li>
 									</ul>
 									<div class="time">
-										<a href="#"><span>Full Time</span></a>
+										<a href="#"><span>풀 타임</span></a>
 										<span class="pull-right">등록일 : 오늘</span>
 									</div>				
 								</div>
@@ -415,9 +409,9 @@
 						</div>
 						<div class="col-md-6 col-lg-3">
 							<div class="job-item">
-								<div class="item-overlay">
+								<div class="item-overlay overlay-list2">
 									<div class="job-info">
-										<a href="#"><span class="btn btn-primary">Part Time</span></a>
+										<a href="#"><span class="btn btn-primary">아르바이트</span></a>
 										<span class="tr-title">
 											<a href="job-details.html">강훈</a>
 											<span><a href="#">남성 55세</a></span>
@@ -427,16 +421,14 @@
 											<li><i class="fa fa-briefcase" aria-hidden="true"></i>퀵/배송/식음료배달</li>
 											<li><i class="fa fa-money" aria-hidden="true"></i>경력 10년</li>
 										</ul>
-										<ul class="job-social tr-list">
-											<li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-expand" aria-hidden="true"></i></a></li>
+										<ul class="job-social tr-list listing-2">
 											<li><a href="#"><i class="fa fa-bookmark-o" aria-hidden="true"></i></a></li>
 											<li><a href="job-details.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></li>
 										</ul>
 									</div>										
 								</div>								
 								<div class="job-info">
-									<div class="company-logo">
+									<div class="company-logo resume-icon">
 										<img src="images/test/test4.png" alt="images" class="img-fluid">
 									</div>
 									<span class="tr-title">
@@ -449,702 +441,335 @@
 										<li><span><i class="fa fa-money" aria-hidden="true"></i></span>경력 10년</li>
 									</ul>
 									<div class="time">
-										<a href="#"><span class="part-time">Part Time</span></a>
+										<a href="#"><span class="part-time">아르바이트</span></a>
 										<span class="pull-right">등록일 : 2021.03.26</span>
 									</div>			
 								</div>
 							</div>
 						</div>
-					</div><!-- /.row -->
-
-					<div class="tr-cta">
-						<div class="cta-content section">
-							<div class="cta-info">
-								<div class="pull-left">
-									<h1>Add your resume and let your next job find you.</h1>
-								</div>
-								<a href="#" class="btn btn-primary pull-right">Add Your Resume</a>
-							</div>
-						</div><!-- /.cta-content -->
-					</div><!-- /.tr-cta -->	
-					
-					<div class="row">
 						<div class="col-md-6 col-lg-3">
 							<div class="job-item">
-								<div class="item-overlay">
+								<div class="item-overlay overlay-list2">
 									<div class="job-info">
-										<a href="#" class="btn btn-primary">Full Time</a>
+										<a href="#" class="btn btn-primary">파트타임</a>
 										<span class="tr-title">
-											<a href="job-details.html">Project Manager</a>
-											<span><a href="#">Dig File</a></span>
+											<a href="job-details.html">김도훈</a>
+											<span><a href="#">남성 49세</a></span>
 										</span>
 										<ul class="tr-list job-meta">
-											<li><i class="fa fa-map-signs" aria-hidden="true"></i>San Francisco, CA, US</li>
-											<li><i class="fa fa-briefcase" aria-hidden="true"></i>Mid Level</li>
-											<li><i class="fa fa-money" aria-hidden="true"></i>$5,000 - $6,000</li>
+											<li><i class="fa fa-map-signs" aria-hidden="true"></i>경기도 남양주</li>
+											<li><i class="fa fa-briefcase" aria-hidden="true"></i>정육/수산</li>
+											<li><i class="fa fa-money" aria-hidden="true"></i>신입</li>
 										</ul>
-										<ul class="job-social tr-list">
-											<li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-expand" aria-hidden="true"></i></a></li>
+										<ul class="job-social tr-list listing-2">
 											<li><a href="#"><i class="fa fa-bookmark-o" aria-hidden="true"></i></a></li>
 											<li><a href="job-details.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></li>
 										</ul>
 									</div>										
 								</div>
 								<div class="job-info">
-									<div class="company-logo">
+									<div class="company-logo resume-icon">
 										<img src="images/test/test1.png" alt="images" class="img-fluid">
 									</div>
 									<span class="tr-title">
-										<a href="#">Project Manager</a>
-										<span><a href="#">Dig File</a></span>
+										<a href="#">김도훈</a>
+										<span><a href="#">남성 49세</a></span>
 									</span>
 									<ul class="tr-list job-meta">
-										<li><span><i class="fa fa-map-signs" aria-hidden="true"></i></span>San Francisco, CA, US</li>
-										<li><span><i class="fa fa-briefcase" aria-hidden="true"></i></span>Mid Level</li>
-										<li><span><i class="fa fa-money" aria-hidden="true"></i></span>$5,000 - $6,000</li>
+										<li><span><i class="fa fa-map-signs" aria-hidden="true"></i></span>경기도 남양주</li>
+										<li><span><i class="fa fa-briefcase" aria-hidden="true"></i></span>정육/수산</li>
+										<li><span><i class="fa fa-money" aria-hidden="true"></i></span>신입</li>
 									</ul>
 									<div class="time">
-										<a href="#"><span>Full Time</span></a>
-										<span class="pull-right">Posted 23 hours ago</span>
+										<a href="#"><span>파트타임</span></a>
+										<span class="pull-right">등록일: 2021.03.20</span>
 									</div>																				
 								</div>
 							</div>
 						</div>
 						<div class="col-md-6 col-lg-3">
 							<div class="job-item">
-								<div class="item-overlay">
+								<div class="item-overlay overlay-list2">
 									<div class="job-info">
-										<a href="#" class="btn btn-primary">Part Time</a>
+										<a href="#" class="btn btn-primary">풀 타임</a>
 										<span class="tr-title">
-											<a href="job-details.html">Design Associate</a>
-											<span><a href="#">Loop</a></span>
+											<a href="job-details.html">이수영</a>
+											<span><a href="#">여성 38세</a></span>
 										</span>
 										<ul class="tr-list job-meta">
-											<li><i class="fa fa-map-signs" aria-hidden="true"></i>San Francisco, CA, US</li>
-											<li><i class="fa fa-briefcase" aria-hidden="true"></i>Mid Level</li>
-											<li><i class="fa fa-money" aria-hidden="true"></i>$5,000 - $6,000</li>
+											<li><i class="fa fa-map-signs" aria-hidden="true"></i>경기도 부천시</li>
+											<li><i class="fa fa-briefcase" aria-hidden="true"></i>마트/캐셔/진열</li>
+											<li><i class="fa fa-money" aria-hidden="true"></i>경력 8년</li>
 										</ul>
-										<ul class="job-social tr-list">
-											<li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-expand" aria-hidden="true"></i></a></li>
+										<ul class="job-social tr-list listing-2">
 											<li><a href="#"><i class="fa fa-bookmark-o" aria-hidden="true"></i></a></li>
 											<li><a href="job-details.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></li>
 										</ul>
 									</div>										
 								</div>								
 								<div class="job-info">
-									<div class="company-logo">
+									<div class="company-logo resume-icon">
 										<img src="images/test/test2.png" alt="images" class="img-fluid">
 									</div>
 									<span class="tr-title">
-										<a href="#">Design Associate</a>
-										<span><a href="#">Loop</a></span>
+										<a href="#">이수영</a>
+										<span><a href="#">여성 38세</a></span>
 									</span>
 									<ul class="tr-list job-meta">
-										<li><span><i class="fa fa-map-signs" aria-hidden="true"></i></span>San Francisco, CA, US</li>
-										<li><span><i class="fa fa-briefcase" aria-hidden="true"></i></span>Mid Level</li>
-										<li><span><i class="fa fa-money" aria-hidden="true"></i></span>$5,000 - $6,000</li>
+										<li><span><i class="fa fa-map-signs" aria-hidden="true"></i></span>경기도 부천시</li>
+										<li><span><i class="fa fa-briefcase" aria-hidden="true"></i></span>마트/캐셔/진열</li>
+										<li><span><i class="fa fa-money" aria-hidden="true"></i></span>경력 8년</li>
 									</ul>
 									<div class="time">
-										<a href="#"><span class="part-time">Part Time</span></a>
-										<span class="pull-right">Posted 1 day ago</span>
+										<a href="#"><span class="part-time">풀 타임</span></a>
+										<span class="pull-right">등록일: 2021.03.20</span>
 									</div>			
 								</div>
 							</div>
 						</div>
 						<div class="col-md-6 col-lg-3">
 							<div class="job-item">
-								<div class="item-overlay">
+								<div class="item-overlay overlay-list2">
 									<div class="job-info">
-										<a href="#" class="btn btn-primary">Freelance</a>
+										<a href="#" class="btn btn-primary">파트타임</a>
 										<span class="tr-title">
-											<a href="job-details.html">Graphic Designer</a>
-											<span><a href="#">Humanity Creative</a></span>
+											<a href="job-details.html">김지훈</a>
+											<span><a href="#">남성 35세</a></span>
 										</span>
 										<ul class="tr-list job-meta">
-											<li><i class="fa fa-map-signs" aria-hidden="true"></i>San Francisco, CA, US</li>
-											<li><i class="fa fa-briefcase" aria-hidden="true"></i>Mid Level</li>
-											<li><i class="fa fa-money" aria-hidden="true"></i>$5,000 - $6,000</li>
+											<li><i class="fa fa-map-signs" aria-hidden="true"></i>경기도 성남시</li>
+											<li><i class="fa fa-briefcase" aria-hidden="true"></i>마트/진열/판매</li>
+											<li><i class="fa fa-money" aria-hidden="true"></i>신입</li>
 										</ul>
-										<ul class="job-social tr-list">
-											<li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-expand" aria-hidden="true"></i></a></li>
+										<ul class="job-social tr-list listing-2">
 											<li><a href="#"><i class="fa fa-bookmark-o" aria-hidden="true"></i></a></li>
 											<li><a href="job-details.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></li>
 										</ul>
 									</div>										
 								</div>								
 								<div class="job-info">
-									<div class="company-logo">
+									<div class="company-logo resume-icon">
 										<img src="images/test/test3.png" alt="images" class="img-fluid">
 									</div>
 									<span class="tr-title">
-										<a href="#">Graphic Designer</a>
-										<span><a href="#">Humanity Creative</a></span>
+										<a href="#">김지훈</a>
+										<span><a href="#">남성 35세</a></span>
 									</span>
 									<ul class="tr-list job-meta">
-										<li><span><i class="fa fa-map-signs" aria-hidden="true"></i></span>San Francisco, CA, US</li>
-										<li><span><i class="fa fa-briefcase" aria-hidden="true"></i></span>Mid Level</li>
-										<li><span><i class="fa fa-money" aria-hidden="true"></i></span>$5,000 - $6,000</li>
+										<li><span><i class="fa fa-map-signs" aria-hidden="true"></i></span>경기도 성남시</li>
+										<li><span><i class="fa fa-briefcase" aria-hidden="true"></i></span>마트/진열/판매</li>
+										<li><span><i class="fa fa-money" aria-hidden="true"></i></span>신입</li>
 									</ul>
 									<div class="time">
-										<a href="#"><span class="freelance">Freelance</span></a>
-										<span class="pull-right">Posted 10 day ago</span>
+										<a href="#"><span class="freelance">파트타임</span></a>
+										<span class="pull-right">등록일: 2021.03.10</span>
 									</div>			
 								</div>
 							</div>
 						</div>
 						<div class="col-md-6 col-lg-3">
 							<div class="job-item">
-								<div class="item-overlay">
+								<div class="item-overlay overlay-list2">
 									<div class="job-info">
-										<a href="#" class="btn btn-primary">Full Time</a>
+										<a href="#" class="btn btn-primary">아르바이트</a>
 										<span class="tr-title">
-											<a href="job-details.html">Design Consultant</a>
-											<span><a href="#">Families</a></span>
+											<a href="job-details.html">홍소현</a>
+											<span><a href="#">여성 50세</a></span>
 										</span>
 										<ul class="tr-list job-meta">
-											<li><i class="fa fa-map-signs" aria-hidden="true"></i>San Francisco, CA, US</li>
-											<li><i class="fa fa-briefcase" aria-hidden="true"></i>Mid Level</li>
-											<li><i class="fa fa-money" aria-hidden="true"></i>$5,000 - $6,000</li>
+											<li><i class="fa fa-map-signs" aria-hidden="true"></i>서울 영등포구</li>
+											<li><i class="fa fa-briefcase" aria-hidden="true"></i>마트/수산</li>
+											<li><i class="fa fa-money" aria-hidden="true"></i>신입</li>
 										</ul>
-										<ul class="job-social tr-list">
-											<li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-expand" aria-hidden="true"></i></a></li>
+										<ul class="job-social tr-list listing-2">
 											<li><a href="#"><i class="fa fa-bookmark-o" aria-hidden="true"></i></a></li>
 											<li><a href="job-details.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></li>
 										</ul>
 									</div>										
 								</div>								
 								<div class="job-info">
-									<div class="company-logo">
+									<div class="company-logo resume-icon">
 										<img src="images/test/test4.png" alt="images" class="img-fluid">
 									</div>
 									<span class="tr-title">
-										<a href="#">Design Consultant</a>
-										<span><a href="#">Families</a></span>
+										<a href="#">홍소현</a>
+										<span><a href="#">여성 50세</a></span>
 									</span>
 									<ul class="tr-list job-meta">
-										<li><span><i class="fa fa-map-signs" aria-hidden="true"></i></span>San Francisco, CA, US</li>
-										<li><span><i class="fa fa-briefcase" aria-hidden="true"></i></span>Mid Level</li>
-										<li><span><i class="fa fa-money" aria-hidden="true"></i></span>$5,000 - $6,000</li>
+										<li><span><i class="fa fa-map-signs" aria-hidden="true"></i></span>서울 영등포구</li>
+										<li><span><i class="fa fa-briefcase" aria-hidden="true"></i></span>마트/수산</li>
+										<li><span><i class="fa fa-money" aria-hidden="true"></i></span>신입</li>
 									</ul>
 									<div class="time">
-										<a href="#"><span>Full Time</span></a>
-										<span class="pull-right">Posted Oct 09, 2017</span>
+										<a href="#"><span>아르바이트</span></a>
+										<span class="pull-right">등록일: 2021.02.28</span>
 									</div>				
 								</div>
 							</div>
 						</div>
 						<div class="col-md-6 col-lg-3">
 							<div class="job-item">
-								<div class="item-overlay">
+								<div class="item-overlay overlay-list2">
 									<div class="job-info">
-										<a href="#" class="btn btn-primary">Part Time</a>
+										<a href="#" class="btn btn-primary">파트타임</a>
 										<span class="tr-title">
-											<a href="job-details.html">Project Manager</a>
-											<span><a href="#">Sky Creative</a></span>
+											<a href="job-details.html">이유리</a>
+											<span><a href="#">여성 32세</a></span>
 										</span>
 										<ul class="tr-list job-meta">
-											<li><i class="fa fa-map-signs" aria-hidden="true"></i>San Francisco, CA, US</li>
-											<li><i class="fa fa-briefcase" aria-hidden="true"></i>Mid Level</li>
-											<li><i class="fa fa-money" aria-hidden="true"></i>$5,000 - $6,000</li>
+											<li><i class="fa fa-map-signs" aria-hidden="true"></i>서울 양진구</li>
+											<li><i class="fa fa-briefcase" aria-hidden="true"></i>마트/판매/진열</li>
+											<li><i class="fa fa-money" aria-hidden="true"></i>경력 2년</li>
 										</ul>
-										<ul class="job-social tr-list">
-											<li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-expand" aria-hidden="true"></i></a></li>
+										<ul class="job-social tr-list listing-2">
 											<li><a href="#"><i class="fa fa-bookmark-o" aria-hidden="true"></i></a></li>
 											<li><a href="job-details.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></li>
 										</ul>
 									</div>										
 								</div>								
 								<div class="job-info">
-									<div class="company-logo">
+									<div class="company-logo resume-icon">
 										<img src="images/test/test1.png" alt="images" class="img-fluid">
 									</div>
 									<span class="tr-title">
-										<a href="#">Project Manager</a>
-										<span><a href="#">Sky Creative</a></span>
+										<a href="#">이유리</a>
+										<span><a href="#">여성 32세</a></span>
 									</span>
 									<ul class="tr-list job-meta">
-										<li><span><i class="fa fa-map-signs" aria-hidden="true"></i></span>San Francisco, CA, US</li>
-										<li><span><i class="fa fa-briefcase" aria-hidden="true"></i></span>Mid Level</li>
-										<li><span><i class="fa fa-money" aria-hidden="true"></i></span>$5,000 - $6,000</li>
+										<li><span><i class="fa fa-map-signs" aria-hidden="true"></i></span>서울 양진구</li>
+										<li><span><i class="fa fa-briefcase" aria-hidden="true"></i></span>마트/판매/진열</li>
+										<li><span><i class="fa fa-money" aria-hidden="true"></i></span>경력 2년</li>
 									</ul>	
 									<div class="time">
-										<a href="#"><span class="part-time">Part Time</span></a>
-										<span class="pull-right">Posted 1 day ago</span>
+										<a href="#"><span class="part-time">파트타임</span></a>
+										<span class="pull-right">등록일: 2021.03.27</span>
 									</div>			
 								</div>
 							</div>
 						</div>
 						<div class="col-md-6 col-lg-3">
 							<div class="job-item">
-								<div class="item-overlay">
+								<div class="item-overlay overlay-list2">
 									<div class="job-info">
-										<a href="#" class="btn btn-primary">Freelance</a>
+										<a href="#" class="btn btn-primary">풀 타임</a>
 										<span class="tr-title">
-											<a href="job-details.html">Design Associate</a>
-											<span><a href="#">Pencil</a></span>
+											<a href="job-details.html">김민준</a>
+											<span><a href="#">남성 42세</a></span>
 										</span>
 										<ul class="tr-list job-meta">
-											<li><i class="fa fa-map-signs" aria-hidden="true"></i>San Francisco, CA, US</li>
-											<li><i class="fa fa-briefcase" aria-hidden="true"></i>Mid Level</li>
-											<li><i class="fa fa-money" aria-hidden="true"></i>$5,000 - $6,000</li>
+											<li><i class="fa fa-map-signs" aria-hidden="true"></i>서울 용산구</li>
+											<li><i class="fa fa-briefcase" aria-hidden="true"></i>배달/진열/판매</li>
+											<li><i class="fa fa-money" aria-hidden="true"></i>신입</li>
 										</ul>
-										<ul class="job-social tr-list">
-											<li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-expand" aria-hidden="true"></i></a></li>
+										<ul class="job-social tr-list listing-2">
 											<li><a href="#"><i class="fa fa-bookmark-o" aria-hidden="true"></i></a></li>
 											<li><a href="job-details.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></li>
 										</ul>
 									</div>										
 								</div>								
 								<div class="job-info">
-									<div class="company-logo">
+									<div class="company-logo resume-icon">
 										<img src="images/test/test2.png" alt="images" class="img-fluid">
 									</div>
 									<span class="tr-title">
-										<a href="#">Design Associate</a>
-										<span><a href="#">Pencil</a></span>
+										<a href="#">김민준</a>
+										<span><a href="#">남성 42세</a></span>
 									</span>
 									<ul class="tr-list job-meta">
-										<li><span><i class="fa fa-map-signs" aria-hidden="true"></i></span>San Francisco, CA, US</li>
-										<li><span><i class="fa fa-briefcase" aria-hidden="true"></i></span>Mid Level</li>
-										<li><span><i class="fa fa-money" aria-hidden="true"></i></span>$5,000 - $6,000</li>
+										<li><span><i class="fa fa-map-signs" aria-hidden="true"></i></span>서울 용산구</li>
+										<li><span><i class="fa fa-briefcase" aria-hidden="true"></i></span>배달/진열/판매</li>
+										<li><span><i class="fa fa-money" aria-hidden="true"></i></span>신입</li>
 									</ul>
 									<div class="time">
-										<a href="#"><span class="freelance">Freelance</span></a>
-										<span class="pull-right">Posted 23 hours ago</span>
+										<a href="#"><span class="freelance">풀 타임</span></a>
+										<span class="pull-right">등록일: 2021.03.15</span>
 									</div>				
 								</div>
 							</div>
 						</div>
 						<div class="col-md-6 col-lg-3">
 							<div class="job-item">
-								<div class="item-overlay">
+								<div class="item-overlay overlay-list2">
 									<div class="job-info">
-										<a href="#" class="btn btn-primary">Full Time</a>
+										<a href="#" class="btn btn-primary">파트타임</a>
 										<span class="tr-title">
-											<a href="job-details.html">Graphic Designer</a>
-											<span><a href="#">Fox</a></span>
+											<a href="job-details.html">이도훈</a>
+											<span><a href="#">남성 48세</a></span>
 										</span>
 										<ul class="tr-list job-meta">
-											<li><i class="fa fa-map-signs" aria-hidden="true"></i>San Francisco, CA, US</li>
-											<li><i class="fa fa-briefcase" aria-hidden="true"></i>Mid Level</li>
-											<li><i class="fa fa-money" aria-hidden="true"></i>$5,000 - $6,000</li>
+											<li><i class="fa fa-map-signs" aria-hidden="true"></i>경기도 안산시</li>
+											<li><i class="fa fa-briefcase" aria-hidden="true"></i>판매/진열</li>
+											<li><i class="fa fa-money" aria-hidden="true"></i>경력 5년</li>
 										</ul>
-										<ul class="job-social tr-list">
-											<li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-expand" aria-hidden="true"></i></a></li>
+										<ul class="job-social tr-list listing-2">
 											<li><a href="#"><i class="fa fa-bookmark-o" aria-hidden="true"></i></a></li>
 											<li><a href="job-details.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></li>
 										</ul>
 									</div>										
 								</div>								
 								<div class="job-info">
-									<div class="company-logo">
+									<div class="company-logo resume-icon">
 										<img src="images/test/test3.png" alt="images" class="img-fluid">
 									</div>
 									<span class="tr-title">
-										<a href="#">Graphic Designer</a>
-										<span><a href="#">Fox</a></span>
+										<a href="#">이도훈</a>
+										<span><a href="#">남성 48세</a></span>
 									</span>
 									<ul class="tr-list job-meta">
-										<li><span><i class="fa fa-map-signs" aria-hidden="true"></i></span>San Francisco, CA, US</li>
-										<li><span><i class="fa fa-briefcase" aria-hidden="true"></i></span>Mid Level</li>
-										<li><span><i class="fa fa-money" aria-hidden="true"></i></span>$5,000 - $6,000</li>
+										<li><span><i class="fa fa-map-signs" aria-hidden="true"></i></span>경기도 안산시</li>
+										<li><span><i class="fa fa-briefcase" aria-hidden="true"></i></span>판매/진열</li>
+										<li><span><i class="fa fa-money" aria-hidden="true"></i></span>경력 5년</li>
 									</ul>
 									<div class="time">
-										<a href="#"><span>Full Time</span></a>
-										<span class="pull-right">Posted Oct 09, 2017</span>
+										<a href="#"><span>파트타임</span></a>
+										<span class="pull-right">등록일: 2021.02.27</span>
 									</div>				
 								</div>
 							</div>
 						</div>
 						<div class="col-md-6 col-lg-3">
 							<div class="job-item">
-								<div class="item-overlay">
+								<div class="item-overlay overlay-list2">
 									<div class="job-info">
-										<a href="#"><span class="btn btn-primary">Part Time</span></a>
+										<a href="#"><span class="btn btn-primary">아르바이트</span></a>
 										<span class="tr-title">
-											<a href="job-details.html">Design Consultant</a>
-											<span><a href="#">Owl</a></span>
+											<a href="job-details.html">이동원</a>
+											<span><a href="#">남성 56세</a></span>
 										</span>
 										<ul class="tr-list job-meta">
-											<li><i class="fa fa-map-signs" aria-hidden="true"></i>San Francisco, CA, US</li>
-											<li><i class="fa fa-briefcase" aria-hidden="true"></i>Mid Level</li>
-											<li><i class="fa fa-money" aria-hidden="true"></i>$5,000 - $6,000</li>
+											<li><i class="fa fa-map-signs" aria-hidden="true"></i>경기도 하남시</li>
+											<li><i class="fa fa-briefcase" aria-hidden="true"></i>배달/판매/퀵</li>
+											<li><i class="fa fa-money" aria-hidden="true"></i>경력 23년</li>
 										</ul>
-										<ul class="job-social tr-list">
-											<li><a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-expand" aria-hidden="true"></i></a></li>
+										<ul class="job-social tr-list listing-2">
 											<li><a href="#"><i class="fa fa-bookmark-o" aria-hidden="true"></i></a></li>
 											<li><a href="job-details.html"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></li>
 										</ul>
 									</div>										
 								</div>								
 								<div class="job-info">
-									<div class="company-logo">
+									<div class="company-logo resume-icon">
 										<img src="images/test/test4.png" alt="images" class="img-fluid">
 									</div>
 									<span class="tr-title">
-										<a href="#">Design Consultant</a>
-										<span><a href="#">Owl</a></span>
+										<a href="#">이동원</a>
+										<span><a href="#">남성 56세</a></span>
 									</span>
 									<ul class="tr-list job-meta">
-										<li><span><i class="fa fa-map-signs" aria-hidden="true"></i></span>San Francisco, CA, US</li>
-										<li><span><i class="fa fa-briefcase" aria-hidden="true"></i></span>Mid Level</li>
-										<li><span><i class="fa fa-money" aria-hidden="true"></i></span>$5,000 - $6,000</li>
+										<li><span><i class="fa fa-map-signs" aria-hidden="true"></i></span>경기도 하남시</li>
+										<li><span><i class="fa fa-briefcase" aria-hidden="true"></i></span>배달/판매/퀵</li>
+										<li><span><i class="fa fa-money" aria-hidden="true"></i></span>경력 23년</li>
 									</ul>
 									<div class="time">
-										<a href="#"><span class="part-time">Part Time</span></a>
-										<span class="pull-right">Posted 10 day ago</span>
+										<a href="#"><span class="part-time">아르바이트</span></a>
+										<span class="pull-right">등록일: 2021.02.28</span>
 									</div>			
 								</div>
 							</div>
 						</div>
 					</div><!-- /.row -->										
 				</div><!-- /.tab-pane -->
-				<div role="tabpanel" class="tab-pane fade two-column" id="two-column">
-					<div class="row">
-						<div class="col-sm-6">
-							<div class="job-item">
-								<div class="job-info">
-									<div class="clearfix">
-										<div class="company-logo">
-											<img src="images/job/1.png" alt="images" class="img-fluid">
-										</div>
-										<span class="tr-title">
-											<a href="job-details.html">Design Associate</a><span><a href="#">Loop</a></span>
-										</span>
-										<span><a href="#" class="btn btn-primary">Part Time</a></span>
-									</div>
-									<ul class="tr-list job-meta">
-										<li><span><i class="fa fa-map-signs" aria-hidden="true"></i></span>San Francisco, CA, US</li>
-										<li><span><i class="fa fa-briefcase" aria-hidden="true"></i></span>Mid Level</li>
-										<li><span><i class="fa fa-money" aria-hidden="true"></i></span>$5,000 - $6,000</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-6">
-							<div class="job-item">
-								<div class="job-info">
-									<div class="clearfix">
-										<div class="company-logo">
-											<img src="images/job/2.png" alt="images" class="img-fluid">
-										</div>
-										<span class="tr-title">
-											<a href="job-details.html">Design Associate</a><span><a href="#">Loop</a></span>
-										</span>
-										<span><a href="#" class="btn btn-primary">Part Time</a></span>
-									</div>
-									<ul class="tr-list job-meta">
-										<li><span><i class="fa fa-map-signs" aria-hidden="true"></i></span>San Francisco, CA, US</li>
-										<li><span><i class="fa fa-briefcase" aria-hidden="true"></i></span>Mid Level</li>
-										<li><span><i class="fa fa-money" aria-hidden="true"></i></span>$5,000 - $6,000</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-6">
-							<div class="job-item">
-								<div class="job-info">
-									<div class="clearfix">
-										<div class="company-logo">
-											<img src="images/job/3.png" alt="images" class="img-fluid">
-										</div>
-										<span class="tr-title">
-											<a href="job-details.html">Design Associate</a><span><a href="#">Loop</a></span>
-										</span>
-										<span><a href="#" class="btn btn-primary">Part Time</a></span>
-									</div>
-									<ul class="tr-list job-meta">
-										<li><span><i class="fa fa-map-signs" aria-hidden="true"></i></span>San Francisco, CA, US</li>
-										<li><span><i class="fa fa-briefcase" aria-hidden="true"></i></span>Mid Level</li>
-										<li><span><i class="fa fa-money" aria-hidden="true"></i></span>$5,000 - $6,000</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-6">
-							<div class="job-item">
-								<div class="job-info">
-									<div class="clearfix">
-										<div class="company-logo">
-											<img src="images/job/4.png" alt="images" class="img-fluid">
-										</div>
-										<span class="tr-title">
-											<a href="job-details.html">Design Associate</a><span><a href="#">Loop</a></span>
-										</span>
-										<span><a href="#" class="btn btn-primary">Part Time</a></span>
-									</div>
-									<ul class="tr-list job-meta">
-										<li><span><i class="fa fa-map-signs" aria-hidden="true"></i></span>San Francisco, CA, US</li>
-										<li><span><i class="fa fa-briefcase" aria-hidden="true"></i></span>Mid Level</li>
-										<li><span><i class="fa fa-money" aria-hidden="true"></i></span>$5,000 - $6,000</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-6">
-							<div class="job-item">
-								<div class="job-info">
-									<div class="clearfix">
-										<div class="company-logo">
-											<img src="images/job/5.png" alt="images" class="img-fluid">
-										</div>
-										<span class="tr-title">
-											<a href="job-details.html">Design Associate</a><span><a href="#">Loop</a></span>
-										</span>
-										<span><a href="#" class="btn btn-primary">Part Time</a></span>
-									</div>
-									<ul class="tr-list job-meta">
-										<li><span><i class="fa fa-map-signs" aria-hidden="true"></i></span>San Francisco, CA, US</li>
-										<li><span><i class="fa fa-briefcase" aria-hidden="true"></i></span>Mid Level</li>
-										<li><span><i class="fa fa-money" aria-hidden="true"></i></span>$5,000 - $6,000</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-6">
-							<div class="job-item">
-								<div class="job-info">
-									<div class="clearfix">
-										<div class="company-logo">
-											<img src="images/job/6.png" alt="images" class="img-fluid">
-										</div>
-										<span class="tr-title">
-											<a href="job-details.html">Design Associate</a><span><a href="#">Loop</a></span>
-										</span>
-										<span><a href="#" class="btn btn-primary">Part Time</a></span>
-									</div>
-									<ul class="tr-list job-meta">
-										<li><span><i class="fa fa-map-signs" aria-hidden="true"></i></span>San Francisco, CA, US</li>
-										<li><span><i class="fa fa-briefcase" aria-hidden="true"></i></span>Mid Level</li>
-										<li><span><i class="fa fa-money" aria-hidden="true"></i></span>$5,000 - $6,000</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-6">
-							<div class="job-item">
-								<div class="job-info">
-									<div class="clearfix">
-										<div class="company-logo">
-											<img src="images/job/7.png" alt="images" class="img-fluid">
-										</div>
-										<span class="tr-title">
-											<a href="job-details.html">Design Associate</a><span><a href="#">Loop</a></span>
-										</span>
-										<span><a href="#" class="btn btn-primary">Part Time</a></span>
-									</div>
-									<ul class="tr-list job-meta">
-										<li><span><i class="fa fa-map-signs" aria-hidden="true"></i></span>San Francisco, CA, US</li>
-										<li><span><i class="fa fa-briefcase" aria-hidden="true"></i></span>Mid Level</li>
-										<li><span><i class="fa fa-money" aria-hidden="true"></i></span>$5,000 - $6,000</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-6">
-							<div class="job-item">
-								<div class="job-info">
-									<div class="clearfix">
-										<div class="company-logo">
-											<img src="images/job/8.png" alt="images" class="img-fluid">
-										</div>
-										<span class="tr-title">
-											<a href="job-details.html">Design Associate</a><span><a href="#">Loop</a></span>
-										</span>
-										<span><a href="#" class="btn btn-primary">Part Time</a></span>
-									</div>
-									<ul class="tr-list job-meta">
-										<li><span><i class="fa fa-map-signs" aria-hidden="true"></i></span>San Francisco, CA, US</li>
-										<li><span><i class="fa fa-briefcase" aria-hidden="true"></i></span>Mid Level</li>
-										<li><span><i class="fa fa-money" aria-hidden="true"></i></span>$5,000 - $6,000</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div><!-- /.row -->
-
-					<div class="tr-cta">
-						<div class="cta-content section">
-							<div class="cta-info">
-								<div class="pull-left">
-									<h1>Add your resume and let your next job find you.</h1>
-								</div>
-								<a href="#" class="btn btn-primary pull-right">Add Your Resume</a>
-							</div>
-						</div><!-- /.cta-content -->
-					</div><!-- /.tr-cta -->
-
-					<div class="row">
-						<div class="col-sm-6">
-							<div class="job-item">
-								<div class="job-info">
-									<div class="clearfix">
-										<div class="company-logo">
-											<img src="images/job/1.png" alt="images" class="img-fluid">
-										</div>
-										<span class="tr-title">
-											<a href="job-details.html">Design Associate</a><span><a href="#">Loop</a></span>
-										</span>
-										<span><a href="#" class="btn btn-primary">Part Time</a></span>
-									</div>
-									<ul class="tr-list job-meta">
-										<li><span><i class="fa fa-map-signs" aria-hidden="true"></i></span>San Francisco, CA, US</li>
-										<li><span><i class="fa fa-briefcase" aria-hidden="true"></i></span>Mid Level</li>
-										<li><span><i class="fa fa-money" aria-hidden="true"></i></span>$5,000 - $6,000</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-6">
-							<div class="job-item">
-								<div class="job-info">
-									<div class="clearfix">
-										<div class="company-logo">
-											<img src="images/job/2.png" alt="images" class="img-fluid">
-										</div>
-										<span class="tr-title">
-											<a href="job-details.html">Design Associate</a><span><a href="#">Loop</a></span>
-										</span>
-										<span><a href="#" class="btn btn-primary">Part Time</a></span>
-									</div>
-									<ul class="tr-list job-meta">
-										<li><span><i class="fa fa-map-signs" aria-hidden="true"></i></span>San Francisco, CA, US</li>
-										<li><span><i class="fa fa-briefcase" aria-hidden="true"></i></span>Mid Level</li>
-										<li><span><i class="fa fa-money" aria-hidden="true"></i></span>$5,000 - $6,000</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-6">
-							<div class="job-item">
-								<div class="job-info">
-									<div class="clearfix">
-										<div class="company-logo">
-											<img src="images/job/3.png" alt="images" class="img-fluid">
-										</div>
-										<span class="tr-title">
-											<a href="job-details.html">Design Associate</a><span><a href="#">Loop</a></span>
-										</span>
-										<span><a href="#" class="btn btn-primary">Part Time</a></span>
-									</div>
-									<ul class="tr-list job-meta">
-										<li><span><i class="fa fa-map-signs" aria-hidden="true"></i></span>San Francisco, CA, US</li>
-										<li><span><i class="fa fa-briefcase" aria-hidden="true"></i></span>Mid Level</li>
-										<li><span><i class="fa fa-money" aria-hidden="true"></i></span>$5,000 - $6,000</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-6">
-							<div class="job-item">
-								<div class="job-info">
-									<div class="clearfix">
-										<div class="company-logo">
-											<img src="images/job/4.png" alt="images" class="img-fluid">
-										</div>
-										<span class="tr-title">
-											<a href="job-details.html">Design Associate</a><span><a href="#">Loop</a></span>
-										</span>
-										<span><a href="#" class="btn btn-primary">Part Time</a></span>
-									</div>
-									<ul class="tr-list job-meta">
-										<li><span><i class="fa fa-map-signs" aria-hidden="true"></i></span>San Francisco, CA, US</li>
-										<li><span><i class="fa fa-briefcase" aria-hidden="true"></i></span>Mid Level</li>
-										<li><span><i class="fa fa-money" aria-hidden="true"></i></span>$5,000 - $6,000</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-6">
-							<div class="job-item">
-								<div class="job-info">
-									<div class="clearfix">
-										<div class="company-logo">
-											<img src="images/job/5.png" alt="images" class="img-fluid">
-										</div>
-										<span class="tr-title">
-											<a href="job-details.html">Design Associate</a><span><a href="#">Loop</a></span>
-										</span>
-										<span><a href="#" class="btn btn-primary">Part Time</a></span>
-									</div>
-									<ul class="tr-list job-meta">
-										<li><span><i class="fa fa-map-signs" aria-hidden="true"></i></span>San Francisco, CA, US</li>
-										<li><span><i class="fa fa-briefcase" aria-hidden="true"></i></span>Mid Level</li>
-										<li><span><i class="fa fa-money" aria-hidden="true"></i></span>$5,000 - $6,000</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-6">
-							<div class="job-item">
-								<div class="job-info">
-									<div class="clearfix">
-										<div class="company-logo">
-											<img src="images/job/6.png" alt="images" class="img-fluid">
-										</div>
-										<span class="tr-title">
-											<a href="job-details.html">Design Associate</a><span><a href="#">Loop</a></span>
-										</span>
-										<span><a href="#" class="btn btn-primary">Part Time</a></span>
-									</div>
-									<ul class="tr-list job-meta">
-										<li><span><i class="fa fa-map-signs" aria-hidden="true"></i></span>San Francisco, CA, US</li>
-										<li><span><i class="fa fa-briefcase" aria-hidden="true"></i></span>Mid Level</li>
-										<li><span><i class="fa fa-money" aria-hidden="true"></i></span>$5,000 - $6,000</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-6">
-							<div class="job-item">
-								<div class="job-info">
-									<div class="clearfix">
-										<div class="company-logo">
-											<img src="images/job/7.png" alt="images" class="img-fluid">
-										</div>
-										<span class="tr-title">
-											<a href="job-details.html">Design Associate</a><span><a href="#">Loop</a></span>
-										</span>
-										<span><a href="#" class="btn btn-primary">Part Time</a></span>
-									</div>
-									<ul class="tr-list job-meta">
-										<li><span><i class="fa fa-map-signs" aria-hidden="true"></i></span>San Francisco, CA, US</li>
-										<li><span><i class="fa fa-briefcase" aria-hidden="true"></i></span>Mid Level</li>
-										<li><span><i class="fa fa-money" aria-hidden="true"></i></span>$5,000 - $6,000</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-6">
-							<div class="job-item">
-								<div class="job-info">
-									<div class="clearfix">
-										<div class="company-logo">
-											<img src="images/job/8.png" alt="images" class="img-fluid">
-										</div>
-										<span class="tr-title">
-											<a href="job-details.html">Design Associate</a><span><a href="#">Loop</a></span>
-										</span>
-										<span><a href="#" class="btn btn-primary">Part Time</a></span>
-									</div>
-									<ul class="tr-list job-meta">
-										<li><span><i class="fa fa-map-signs" aria-hidden="true"></i></span>San Francisco, CA, US</li>
-										<li><span><i class="fa fa-briefcase" aria-hidden="true"></i></span>Mid Level</li>
-										<li><span><i class="fa fa-money" aria-hidden="true"></i></span>$5,000 - $6,000</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div><!-- /.row -->										
-				</div><!-- /.tab-pane -->
+				
 			</div><!-- /.tab-content -->		
 		</div><!-- /.container -->		
 	</div><!-- /.jobs-listing -->
@@ -1152,77 +777,24 @@
 	
 
 	<div class="footer">
-		<div class="footer-top section-padding">
+		<div class="footer-top" style="padding: 40px 0;">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-3">
+					<div class="col-sm-3 center-block" >
+						<img src="images/others/ft_logo.png" style="padding-top: 15%;">
+					</div><!-- /.col-sm-3 -->
+					<div class="col-sm-9">
 						<div class="footer-widget">
-							<h3>About Us</h3>
-							<ul class="tr-list">
-								<li><a href="#">About Seeker</a></li>
-								<li><a href="#">Terms & Conditions</a></li>
-								<li><a href="#">International Partners</a></li>
-								<li><a href="#">Privacy Policy</a></li>
-								<li><a href="#">Feedback</a></li>
-								<li><a href="#">Contact Us</a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="footer-widget">
-							<h3>Job Seekers</h3>
-							<ul class="tr-list">
-								<li><a href="#">Create Account</a></li>
-								<li><a href="#">Career Counseling</a></li>
-								<li><a href="#">My Bdjobs</a></li>
-								<li><a href="#">FAQ</a></li>
-								<li><a href="#">Video Guides</a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="footer-widget">
-							<h3>Employers</h3>
-							<ul class="tr-list">
-								<li><a href="#">Create Account</a></li>
-								<li><a href="#">Products/Service</a></li>
-								<li><a href="#">Post a Job</a></li>
-								<li><a href="#">FAQ</a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="footer-widget">
-							<h3>Newsletter</h3>
-							<p>Earum cumque doloribus, incidunt! Tempora voluptatibus</p>
-							<form class="contact-form" method="post" action="#">
-								<div class="form-group">
-								    <input type="email" class="form-control" required="required" placeholder="Your email Id">
-								</div>             
-							    <div class="form-group">
-							        <button type="submit" class="btn btn-primary">Sign Up</button>
-							    </div>
-							</form>
+							<ul class="tr-list" style="font-size: 12px; padding-left: 5%;">
+								<li>개인정보처리방침     협회소개     서비스이용약관</li>
+								<li>사단법인 한국마트협회 | 서울시 강서구 발산로40 식품종합상가 3층(외발산동, 강서농산물시장) </li>
+								<li>TEL: 02-305-6100, 6110 | FAX: 02-2640-6400 | email : koreamart6100@gmail.com | 회장 : 김성민</li>
+								<li>COPYRIGHT by 사단법인 한국마트협회. ALL RIGHTS RESERVED.</li></ul>
 						</div>
 					</div>
 				</div><!-- /.row -->
 			</div><!-- /.container -->
 		</div><!-- /.footer-top -->
-		<div class="footer-bottom">
-			<div class="container">
-				<div class="copyright">
-					<p>Copyright © 2017 <a href="#">Seeker.com.</a> All rights reserved.</p>
-				</div>
-				<div class="footer-social pull-right">
-					<ul class="tr-list">
-						<li><a href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="#" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#" title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
-						<li><a href="#" title="Youtube"><i class="fa fa-youtube"></i></a></li>
-					</ul>
-				</div>
-			</div>
-		</div><!-- /.footer-bottom -->
 	</div><!-- /.footer -->
 
 
