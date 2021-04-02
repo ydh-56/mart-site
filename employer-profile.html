@@ -107,15 +107,7 @@
                         <!-- <li><i class="fa fa-briefcase" aria-hidden="true"></i>IT Industry</li> -->
                         <li><i class="fa fa-black-tie" aria-hidden="true"></i>회사규모 : 2K</li>
                     </ul>
-                    <!-- <ul class="breadcrumb-social social-icon-bg  tr-list">
-					<li><a href="#"><i class="fa fa-facebook"></i><span>Facebook</span></a></li>
-					<li><a href="#"><i class="fa fa-twitter"></i> <span>Twitter</span> </a></li>
-					<li><a href="#"><i class="fa fa-google-plus"></i> <span>Google Plus</span> </a></li>
-					<li><a href="#"><i class="fa fa-linkedin"></i><span>Linkedin</span> </a></li>
-					<li><a href="#"><i class="fa fa-dribbble"></i> <span>Dribbble</span></a></li>
-					<li><a href="#"><i class="fa fa-behance"></i> <span>Behance</span></a></li>
-					<li><a href="#"><i class="fa fa-globe"></i> <span>Website</span> </a></li>
-				</ul>			 -->
+				</ul>
                 </div>
             </div>
             <!-- /.container -->
@@ -147,7 +139,7 @@
                                     >
                                 </li>
                                 <!-- <li role="presentation"><a href="#volunteer" aria-controls="volunteer" role="tab" data-toggle="tab"><span><i class="fa fa-bell-o" aria-hidden="true"></i></span>지원자 목록</a></li> -->
-                                <li role="presentation"><a href="#archived" aria-controls="archived" role="tab" data-toggle="tab"><span><i class="fa fa-clone" aria-hidden="true"></i></span>지원자 목록</a></li>
+                                <li role="presentation" style="display: none;"><a id='volunteer' href="#archived" aria-controls="archived" role="tab" data-toggle="tab"><span><i class="fa fa-clone" aria-hidden="true"></i></span>지원자 목록</a></li>
                                 <!-- <li role="presentation"><a href="#"><span><i class="fa fa-scissors" aria-hidden="true"></i></span>Logout</a></li> -->
                             </ul>
                         </div>
@@ -382,7 +374,8 @@
                                                 <a href="#">판촉사원 모집</a>
                                             </span>
                                             <span><a href="#" class="btn btn-primary">아르바이트</a></span>
-											<span><a href="volunteer.html" class="btn btn-primary">지원자 확인</a></span>
+											<!-- <span><a href="volunteer.html" class="btn btn-primary">지원자 확인</a></span> -->
+											<span><div id='volun2' class="btn btn-primary">지원자 확인</div></span>
                                         </div>
                                         <span class="deadline">모집 마감일 : 2021.04.30</span>
                                         <ul class="tr-list job-meta">
@@ -421,8 +414,8 @@
                                                 <a href="#">오픈직원 대모집</a>
                                             </span>
                                             <span><a href="#" class="btn btn-primary">아르바이트</a></span>
-											<span><a href="volunteer.html" class="btn btn-primary">지원자 확인</a></span>
-											<!-- <span><div id='volun' class="btn btn-primary">지원자 확인</div></span> -->
+											<!-- <span><a href="volunteer.html" class="btn btn-primary">지원자 확인</a></span> -->
+											<span><div id='volun' class="btn btn-primary">지원자 확인</div></span>
                                         </div>
                                         <span class="deadline">모집 마감일 : 2021.05.31</span>
                                         <ul class="tr-list job-meta">
@@ -663,5 +656,15 @@
         <script src="https://maps.google.com/maps/api/js?sensor=true"></script>
         <script src="js/gmaps.min.js"></script>
         <script src="js/main.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('#volun').click(function(){
+					$('#volunteer').trigger('click');
+				});
+				$('#volun2').click(function(){
+					$('#volunteer').trigger('click');
+				});
+			})
+		</script>
     </body>
 </html>
