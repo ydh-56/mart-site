@@ -51,14 +51,22 @@
 				
 				<div class="collapse navbar-collapse" id="navbarNav">
 					<ul class="nav navbar-nav">
-						<li><a href="index1.html">홈</a></li>
+						<li class="tr-dropdown"><a href="#">홈</a>
+							<ul class="tr-dropdown-menu left tr-list fadeInUp" role="menu">
+								<li><a href="index1.html">홈페이지(비로그인)</a></li>
+								<li><a href="index-user.html">홈(구직자 로그인)</a></li>
+								<li><a href="index-mart.html">홈(고용자 로그인)</a></li>
+							</ul>
+						</li>
 						<li class="active"><a href="job-post.html">채용공고 등록</a></li>
 						<li><a href="listing.html">채용공고</a></li>
+						<li><a href="listing_2.html">공개 이력서</a></li>
 						<li><a href="job-details.html">회사 소개</a></li>
+						<!-- <li><a href="employee-profile.html">이력서 관리</a></li> -->
 						<li class="tr-dropdown"><a href="#">기타</a>
 							<ul class="tr-dropdown-menu tr-list fadeInUp" role="menu">
-						        <li><a href="employee-profile.html">Employee Profile</a></li>
-						        <li><a href="employer-profile.html">Employer Profile</a></li>
+						        <li><a href="employee-profile.html">구직자 프로필</a></li>
+						        <li><a href="employer-profile.html">고용주 프로필</a></li>
 						        <!-- <li><a href="view-compnay.html">View Compnay</a></li>
 						        <li><a href="view-resume.html">View Resume</a></li>
 						        <li><a href="coming-soon.html">Coming Soon</a></li>
@@ -202,9 +210,8 @@
 						</div>
 					</div>
 
-					<div class="premium-post section">
+					<!-- <div class="premium-post section">
 						<span class="tr-title">프리미엄 등록</span>
-						<!-- <p></p> -->
 						<ul class="tr-list">
 							<li>
 								<input type="radio" name="radio4" value="regular-post" id="regular-post">
@@ -222,7 +229,8 @@
 								<span>50.000 Won</span>
 							</li>
 						</ul>
-					</div><!-- /.premium-post -->
+					</div> -->
+					<!-- /.premium-post -->
 					<div class="section agreement">
 						<label for="send">
 							<input type="checkbox" name="send" id="send">
@@ -237,7 +245,26 @@
 			</div><!-- /.row -->
 		</div><!-- /.container -->
 	</div><!-- /.tr-post-job -->
-	
+	<div class="footer">
+		<div class="footer-top" style="padding: 40px 0;">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-3 center-block" >
+						<img src="images/others/ft_logo.png" style="padding-top: 15%;">
+					</div><!-- /.col-sm-3 -->
+					<div class="col-sm-9">
+						<div class="footer-widget">
+							<ul class="tr-list" style="font-size: 12px; padding-left: 5%;">
+								<li>개인정보처리방침     협회소개     서비스이용약관</li>
+								<li>사단법인 한국마트협회 | 서울시 강서구 발산로40 식품종합상가 3층(외발산동, 강서농산물시장) </li>
+								<li>TEL: 02-305-6100, 6110 | FAX: 02-2640-6400 | email : koreamart6100@gmail.com | 회장 : 김성민</li>
+								<li>COPYRIGHT by 사단법인 한국마트협회. ALL RIGHTS RESERVED.</li></ul>
+						</div>
+					</div>
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</div><!-- /.footer-top -->
+	</div><!-- /.footer -->
     <!-- JS -->
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
